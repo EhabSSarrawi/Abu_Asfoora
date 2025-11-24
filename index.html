@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>مطاعم ومشويات أبو عصفورة | Abu Asfoora BBQ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container header-container">
+
+      <!-- LOGO -->
+      <a href="#hero" class="logo">
+        <img src="images/logo.jpg"
+             alt="مطاعم ومشويات أبو عصفورة"
+             class="logo-img" />
+      </a>
+
+      <nav class="nav">
+        <a href="#menu">القائمة</a>
+        <a href="#about">عن المطعم</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-subtitle">Since 1905</p>
+      <h1>مطاعم ومشويات أبو عصفورة</h1>
+      <p>أفضل المشاوي على الفحم بطعم عربي أصيل وجو عائلي مميز.</p>
+      <a href="#menu" class="btn-primary">شاهد قائمة المشاوي</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>قائمة الطعام</h2>
+        <p>تشكيلة مختارة من المشاوي، المقبلات، والسلطات على طريقة أبو عصفورة.</p>
+      </div>
+
+      <!-- Category Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">الكل</button>
+        <button class="filter-btn" data-filter="grill">مشاوي</button>
+        <button class="filter-btn" data-filter="single">وجبات فردية</button>
+        <button class="filter-btn" data-filter="sandwich">سندويشات</button>
+        <button class="filter-btn" data-filter="appetizer">مقبلات</button>
+        <button class="filter-btn" data-filter="salad">سلطات</button>
+        <button class="filter-btn" data-filter="drink">مشروبات</button>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="menu-grid">
+
+        <!-- Grill items -->
+        <article class="menu-item" data-category="grill">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>مشكل مشاوي <span>Mixed Grill</span></h3>
+            <p>كباب خاروف، شقف خاروف، شيش طاووق مع بصل وبندورة مشوية.</p>
+            <div class="menu-meta">
+              <div class="weight-prices">
+                <span class="wp">½ ك — 80₪</span>
+                <span class="wp">1 ك — 160₪</span>
+            </div>
+              <span class="tag">طبق رئيسي</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="grill">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>كباب خاروف <span>Lamb Kabab</span></h3>
+            <p>أسياخ كباب خاروف مفروم متبّل بالأعشاب والبهارات العربية.</p>
+            <div class="menu-meta">
+               <div class="weight-prices">
+                <span class="wp">½ ك — 80₪</span>
+                <span class="wp">1 ك — 160₪</span>
+              </div>
+              <span class="tag">لحم خاروف</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="grill">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>شقف خاروف <span>Lamb Cubes</span></h3>
+            <p>قطع لحم خاروف طازجة مشوية على الفحم مع بصل وبندورة مشوية.</p>
+            <div class="menu-meta">
+              <div class="weight-prices">
+                <span class="wp">½ ك — 80₪</span>
+                <span class="wp">1 ك — 160₪</span>
+            </div>
+              <span class="tag">لحم خاروف</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="grill">
+        <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+
+        <div class="menu-info">
+            <h3>شيش طاووق <span>Shish Tawook</span></h3>
+            <p>صدور دجاج متبلة على طريقة أبو عصفورة الخاصة.</p>
+            <div class="menu-meta">
+            <div class="weight-prices">
+                <span class="wp">½ ك — 50₪</span>
+                <span class="wp">1 ك — 100₪</span>
+            </div>
+            <span class="tag">دجاج</span>
+            </div>
+        </div>
+        </article>
+
+        <article class="menu-item" data-category="grill">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>ريش خاروف <span>Lamb Chops</span></h3>
+            <p>ريش خاروف طازجة مشوية على الفحم مع تتبيلة أبو عصفورة الأصلية.</p>
+            <div class="menu-meta">
+              <div class="weight-prices">
+                <span class="wp">½ ك — 80₪</span>
+                <span class="wp">1 ك — 160₪</span>
+            </div>
+              <span class="tag">لحم خاروف</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="grill">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>معلاق خاروف<span>Lamb Offal Mix</span></h3>
+            <p> تشكيلة معلاق خاروف طازجة تشمل: الكبدة، الكلاوي، القلب، والخصاوي.</p>
+            <div class="menu-meta">
+              <div class="weight-prices">
+                <span class="wp">½ ك — 60₪</span>
+                <span class="wp">1 ك — 100₪</span>
+            </div>
+              <span class="tag">لحم خاروف</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Single Meals -->
+         <article class="menu-item" data-category="single">
+            <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+            <div class="menu-info">
+                <h3>وجبة مشكل مشاوي <span>Mixed Grill Meal</span></h3>
+
+                <p>كباب خاروف، شقف خاروف، شيش طاووق مع سلطة وخبز.</p>
+                <p class="price-title">أسعار الوجبة:</p>
+                <!-- أسعار الوجبة -->
+                <div class="meal-prices">
+                    <span>₪25</span>
+                    <span>₪30</span>
+                    <span>₪35</span>
+                    <span>₪40</span>
+                </div>
+
+                <div class="menu-meta">
+                    <span class="tag">وجبة فردية</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="single">
+            <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+            <div class="menu-info">
+                <h3>وجبة شقف خاروف<span>Mixed Grill Meal</span></h3>
+
+                <p>شقف خاروف مع سلطة وخبز.</p>
+                <p class="price-title">أسعار الوجبة:</p>
+                <!-- أسعار الوجبة -->
+                <div class="meal-prices">
+                    <span>₪25</span>
+                    <span>₪30</span>
+                    <span>₪35</span>
+                    <span>₪40</span>
+                </div>
+
+                <div class="menu-meta">
+                    <span class="tag">وجبة فردية</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="single">
+            <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+            <div class="menu-info">
+                <h3>وجبة كباب خاروف<span>Lamb Kabab</span></h3>
+                <p>كباب خاروف مع سلطة وخبز.</p>
+                <p class="price-title">أسعار الوجبة:</p>
+                <!-- أسعار الوجبة -->
+                <div class="meal-prices">
+                    <span>₪25</span>
+                    <span>₪30</span>
+                    <span>₪35</span>
+                    <span>₪40</span>
+                </div>
+
+                <div class="menu-meta">
+                    <span class="tag">وجبة فردية</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="single">
+            <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+            <div class="menu-info">
+                <h3>وجبة مشكل مشاوي <span>Mixed Grill Meal</span></h3>
+
+                <p>كباب خاروف، شقف خاروف، شيش طاووق مع سلطة وخبز.</p>
+                <p class="price-title">أسعار الوجبة:</p>
+                <!-- أسعار الوجبة -->
+                <div class="meal-prices">
+                    <span>₪25</span>
+                    <span>₪30</span>
+                    <span>₪35</span>
+                    <span>₪40</span>
+                </div>
+
+                <div class="menu-meta">
+                    <span class="tag">وجبة فردية</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sandwiches -->
+        <article class="menu-item" data-category="sandwich">
+            <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+
+            <div class="menu-info">
+                <h3>سندويشة شقف خاروف <span>Lamb Cubes Sandwich</span></h3>
+
+                <p>شقف خاروف مشوية مع بصل وبندورة.</p>
+
+                <div class="menu-meta">
+                <div class="size-prices">
+                    <span>صغير — 14₪</span>
+                    <span>كبير — 19₪</span>
+                </div>
+                <span class="tag">سندويش</span>
+                </div>
+
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="sandwich">
+            <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+
+            <div class="menu-info">
+                <h3>سندويشة كباب خاروف <span>Lamb Kebab Sandwich</span></h3>
+
+                <p>كباب خاروف متبّل مع بصل وبندورة.</p>
+
+                <div class="menu-meta">
+                <div class="size-prices">
+                    <span>صغير — 14₪</span>
+                    <span>كبير — 19₪</span>
+                </div>
+                <span class="tag">سندويش</span>
+                </div>
+
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="sandwich">
+        <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+
+        <div class="menu-info">
+            <h3>سندويشة شيش طاووق <span>Shish Tawook Sandwich</span></h3>
+
+            <p>قطع شيش طاووق مشوية مع البقدونسية.</p>
+
+            <div class="menu-meta">
+            <div class="size-prices">
+                <span>صغير — 14₪</span>
+                <span>كبير — 19₪</span>
+            </div>
+            <span class="tag">سندويش</span>
+            </div>
+
+        </div>
+        </article>
+
+        <article class="menu-item" data-category="sandwich">
+        <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+
+        <div class="menu-info">
+            <h3>عرايس <span>Arayes</span></h3>
+
+            <p>خبز طازج محشو بخلطتنا المميزة.</p>
+
+            <div class="menu-meta">
+            <div class="size-prices">
+                <span>₪7</span>
+            </div>
+            <span class="tag">سندويش</span>
+            </div>
+
+        </div>
+        </article>
+
+        <!-- Appetizers -->
+        <article class="menu-item" data-category="appetizer">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>حمص بالطحينة <span>Hummus</span></h3>
+            <p>حمص ناعم مع طحينة، وزيت زيتون.</p>
+            <div class="menu-meta">
+              <div class="size-prices">
+                <span>صغير — 6₪</span>
+                <span>كبير — 12₪</span>
+              </div>
+              <span class="tag">مقبلات</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="appetizer">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>متبل باذنجان <span>Baba Ghanoush</span></h3>
+            <p>باذنجان مشوي مع طحينة وثوم.</p>
+            <div class="menu-meta">
+              <div class="size-prices">
+                <span>صغير — 6₪</span>
+                <span>كبير — 12₪</span>
+              </div>
+              <span class="tag">مقبلات</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="appetizer">
+            <div class="menu-img"
+                style="background-image: url('./images/logo.jpg');">
+            </div>
+
+            <div class="menu-info">
+                <h3>بقدونسية <span>Parsley Tahini Mix</span></h3>
+
+                <p>خليط لذيذ من الطحينة والبقدونس مع الليمون.</p>
+                <div class="menu-meta">
+                    <div class="size-prices">
+                        <span>صغير — 6₪</span>
+                        <span>كبير — 12₪</span>
+                    </div>  
+                <span class="tag">مقبلات</span>
+                </div>
+            </div>
+        </article>
+        
+        <article class="menu-item" data-category="appetizer">
+        <div class="menu-img"
+            style="background-image: url('./images/logo.jpg');">
+        </div>
+
+        <div class="menu-info">
+            <h3>السلطة التركية <span>Turkish Salad</span></h3>
+
+            <p>بندورة، فلفل، بقدونس، بصل، وفلفل حار مع ليمون وزيت زيتون.</p>
+            
+            <div class="menu-meta">
+                <div class="size-prices">
+                    <span>صغير — 6₪</span>
+                    <span>كبير — 12₪</span>
+                </div>  
+                <span class="tag">مقبلات</span>
+            </div>
+        </div>
+        </article>
+
+         <article class="menu-item" data-category="appetizer">
+            <div class="menu-img"
+                style="background-image: url('./images/logo.jpg');">
+            </div>
+
+            <div class="menu-info">
+                <h3>ملفوف مع مايونيز <span>Coleslaw</span></h3>
+                <p>ملفوف طازج مع جزر و مايونيز خفيف، وليمون لتقديم نكهة منعشة.</p>
+                <div class="menu-meta">
+                <div class="size-prices">
+                    <span>صغير — 6₪</span>
+                    <span>كبير — 12₪</span>
+                </div>  
+                <div class="menu-meta">
+                <span class="tag">مقبلات</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="appetizer">
+            <div class="menu-img"
+                style="background-image: url('./images/logo.jpg');">
+            </div>
+
+            <div class="menu-info">
+                <h3>بصلية <span>Onion Tahini Mix</span></h3>
+
+                <p>تتكون من بصل طازج ممزوج مع طحينة وليمون.</p>
+
+                <div class="menu-meta">
+                    <div class="size-prices">
+                        <span>صغير — 6₪</span>
+                        <span>كبير — 12₪</span>
+                    </div>
+                    <span class="tag">مقبلات</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="appetizer">
+            <div class="menu-img"
+                style="background-image: url('./images/logo.jpg');">
+            </div>
+
+            <div class="menu-info">
+                <h3>ملفوف أحمر <span>Red Cabbage Salad</span></h3>
+
+                <p>ملفوف أحمر طازج مع ليمون وزيت ورشة ملح.</p>
+
+                <div class="menu-meta">
+                    <div class="size-prices">
+                        <span>صغير — 6₪</span>
+                        <span>كبير — 12₪</span>
+                    </div>
+                    <span class="tag">مقبلات</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="appetizer">
+            <div class="menu-img"
+                style="background-image: url('./images/logo.jpg');">
+            </div>
+
+            <div class="menu-info">
+                <h3>ملفوف أحمر <span>Red Cabbage Salad</span></h3>
+
+                <p>ملفوف أحمر طازج مع ليمون وزيت ورشة ملح.</p>
+
+                <div class="menu-meta">
+                    <div class="size-prices">
+                        <span>صغير — 6₪</span>
+                        <span>كبير — 12₪</span>
+                    </div>
+                    <span class="tag">مقبلات</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="appetizer">
+            <div class="menu-img"
+                style="background-image: url('./images/logo.jpg');">
+            </div>
+
+            <div class="menu-info">
+                <h3>ملفوف أحمر <span>Red Cabbage Salad</span></h3>
+
+                <p>ملفوف أحمر طازج مع ليمون وزيت ورشة ملح.</p>
+
+                <div class="menu-meta">
+                    <div class="size-prices">
+                        <span>صغير — 6₪</span>
+                        <span>كبير — 12₪</span>
+                    </div>
+                    <span class="tag">مقبلات</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="menu-item" data-category="appetizer">
+            <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+
+            <div class="menu-info">
+                <h3>بطاطا مقلية <span>French Fries</span></h3>
+
+                <p>بطاطا مقلية مقرمشة تقدم ساخنة.</p>
+
+                <div class="menu-meta">
+                <div class="size-prices">
+                    <span>صغير — ₪10</span>
+                    <span>وسط — ₪15</span>
+                    <span>كبير — ₪20</span>
+                </div>
+                <span class="tag">مقبلات</span>
+                </div>
+            </div>
+        </article>
+
+
+        <!-- Salads -->
+
+        <article class="menu-item" data-category="salad">
+        <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+
+        <div class="menu-info">
+            <h3>سلطة عربية <span>Arabic Salad</span></h3>
+
+            <p>خيار، بندورة، بصل، فلفل، وبقدونس مع ليمون وزيت زيتون.</p>
+
+            <div class="menu-meta">
+            <div class="size-prices">
+                <span>صغير — 10₪</span>
+                <span>كبير — 20₪</span>
+            </div>
+            <span class="tag">سلطة</span>
+            </div>
+        </div>
+        </article>
+
+        <article class="menu-item" data-category="salad">
+        <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+
+        <div class="menu-info">
+            <h3>سلطة عربية مع طحينة <span>Arabic Salad with Tahini</span></h3>
+
+            <p>سلطة عربية طازجة مضاف إليها طحينة بنكهة عربية.</p>
+
+            <div class="menu-meta">
+            <div class="size-prices">
+                <span>صغير — 10₪</span>
+                <span>كبير — 20₪</span>
+            </div>
+            <span class="tag">سلطة</span>
+            </div>
+        </div>
+        </article>        
+
+        <article class="menu-item" data-category="salad">
+        <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+
+        <div class="menu-info">
+            <h3>تبولة <span>Tabbouleh</span></h3>
+
+            <p>بقدونس، برغل، بندورة، نعنع، ليمون وزيت الزيتون.</p>
+
+            <div class="menu-meta">
+            <div class="size-prices">
+                <span>صغير — 10₪</span>
+                <span>كبير — 20₪</span>
+            </div>
+            <span class="tag">سلطة</span>
+            </div>
+        </div>
+        </article>
+
+        <article class="menu-item" data-category="salad">
+        <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+
+        <div class="menu-info">
+            <h3>سلطة جرجير <span>Arugula Salad</span></h3>
+
+            <p>جرجير طازج مع بندورة، ليمون، سماق، زيت الزيتون ورشة ملح.</p>
+
+            <div class="menu-meta">
+            <div class="size-prices">
+                <span>صغير — 10₪</span>
+                <span>كبير — 20₪</span>
+            </div>
+            <span class="tag">سلطة</span>
+            </div>
+        </div>
+        </article>
+
+
+        <!-- Drinks -->
+        
+        <article class="menu-item" data-category="drink">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>عصير <span>Juice</span></h3>
+            <p>عنب، برتقال، فراولة وموز، مانجا.</p>
+            <div class="menu-meta">
+              <span class="price">₪5</span>
+              <span class="tag">مشروب</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="drink">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>مياه غازية <span>Soft water</span></h3>
+            <p>صودا</p>
+            <div class="menu-meta">
+              <span class="price">₪5</span>
+              <span class="tag">مشروب</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="drink">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>مياه معدنية <span>Water</span></h3>
+            <p>كبيرة</p>
+            <div class="menu-meta">
+              <span class="price">₪5</span>
+              <span class="tag">مشروب</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="drink">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>مياه معدنية <span>Water</span></h3>
+            <p>صغيرة</p>
+            <div class="menu-meta">
+              <span class="price">₪3</span>
+              <span class="tag">مشروب</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="menu-item" data-category="drink">
+          <div class="menu-img" style="background-image: url('./images/logo.jpg');"></div>
+          <div class="menu-info">
+            <h3>مشروبات غازية <span>Soft Drinks</span></h3>
+            <p>كوكاكولا، سبرايت، فانتا (علبة).</p>
+            <div class="menu-meta">
+              <span class="price">₪5</span>
+              <span class="tag">مشروب</span>
+            </div>
+          </div>
+        </article>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section section-alt">
+    <div class="container about-grid">
+      <div>
+        <h2>عن مطاعم ومشويات أبو عصفورة</h2>
+        <p>
+          منذ عام 1905، تقدم مطاعم ومشويات أبو عصفورة أشهى أطباق المشاوي
+          على الفحم بوصفات عربية أصيلة، باستخدام أجود أنواع اللحوم الطازجة.
+        </p>
+        <p>
+          نحرص على تقديم تجربة مميزة تجمع بين الطعم اللذيذ، الأجواء العائلية،
+          والخدمة الودودة في قلب المدينة.
+        </p>
+      </div>
+      <div class="about-highlight">
+        <h3>لماذا تختارنا؟</h3>
+        <ul>
+          <li>لحوم طازجة يومياً</li>
+          <li>تتبيلات خاصة وحصرية بأبو عصفورة</li>
+          <li>جلسات عائلية مريحة ومكيفة</li>
+          <li>خدمة طلبات خارجية وتوصيل</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>موقعنا</h3>
+        <p>شارع رفيديا الرئيسي<br>نابلس، فلسطين</p>
+      </div>
+      <div>
+        <h3>التواصل</h3>
+        <p>هاتف: 09/2347715</p>
+        <p>رقم جوال: 0598757217</p>
+      </div>
+      <div>
+        <h3>ساعات العمل</h3>
+        <p>السبت - الخميس: 10:00 صباحا - 11:00 مساءًا</p>
+        <p>الجمعة: 10 صباحا - 5:00 مساءًا</p>
+      </div>
+    </div>
+    <p class="footer-copy">© 2025 مطاعم ومشويات أبو عصفورة - جميع الحقوق محفوظة</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
